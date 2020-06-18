@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreakShooter by Pierre</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <style>
+        html, body { margin: 0px; padding: 0px; width: 100%; height: 100%; }
+        body {background: background-size cover;overflow: scroll; }
+    </style>
+</head>
+<body>
+   
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+<nav style="
+    left: 18<nav style=&quot;
+    left: 200px;
+    right: 460px;
+    top: 25px;
+    padding-right: 25px;
+    width: 300px;
+&quot;>
+    <label for=&quot;btn&quot; class=&quot;button&quot;>menu echap
+      <span class=&quot;fas fa-caret-down&quot; aria-hidden=&quot;true&quot;></span>
+    </label>
+    <input type=&quot;checkbox&quot; id=&quot;btn&quot;>
+    <ul class=&quot;menu&quot;>
+<li><a href=&quot;index.html&quot;>menu principal</a></li>
+        <input type=&quot;checkbox&quot; id=&quot;btn-3&quot; <=&quot;&quot; li=&quot;&quot;>
+<li><a href=&quot;menu.html&quot;>recommencer</a></li>
+<li><a href=&quot;#&quot;>quitter</a></li>
+</ul>
+</nav>;
+    right: 460px;
+    top: 25px;
+    padding-right: 25px;
+    width: 200px;
+    left: 100px;
+">
+    <label for="btn" class="button">Menu Echap
+      <span class="fas fa-caret-down rotate" aria-hidden="true"></span>
+    </label>
+    <input type="checkbox" id="btn">
+    <ul class="menu">
+<li><a href="index.html">Menu principal</a></li>
+        <input type="checkbox" id="btn-3" <="" li="">
+<li><a href="menu.html">Recommencer</a></li>
+<li><a href="#">Quitter</a></li>
+</ul>
+</nav>
+
+
+  <script>
+  $('nav .button').click(function(){
+    $('nav .button span').toggleClass("rotate");
+  });
+    $('nav ul li .first').click(function(){
+      $('nav ul li .first span').toggleClass("rotate");
+    });
+    $('nav ul li .second').click(function(){
+      $('nav ul li .second span').toggleClass("rotate");
+    });
+  </script>
+</body>
+</html>
+
